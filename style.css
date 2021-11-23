@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: VT323;
+}   
+
+.board {
+    border: 1px solid gray;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex: 1;
+    justify-content: stretch;
+
+}
+
+
+.col{
+    border: 1px solid gray; 
+    display: flex;
+    flex: 1;
+    justify-content: stretch;
+    text-align: center;
+}
+
+.space{
+    border: 1px solid gray; 
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+}
