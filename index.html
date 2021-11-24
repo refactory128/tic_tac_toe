@@ -6,48 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <script src="script.js" defer></script>
     <title>Tic Tac Toe</title>
 </head>
 <body>
     <div class="container">
-        <h1>Shall we play a game?</h1>
+        <h1 class="messageDisplay">Shall we play a game?</h1>
         <div class="board">
             <div class="row">
                 <div class="col">
-                    <button class="space" id="id0"> X </button>
+                    <button class="space" data-index="0"> X </button>
                 </div>
                 <div class="col">
-                    <button class="space" id="id1"> O </button>
+                    <button class="space" data-index="1"> O </button>
                 </div>
                 <div class="col">
-                    <button class="space" id="id2"> </button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <button class="space" id="id3"> </button>
-                </div>
-                <div class="col">
-                    <button class="space" id="id4"> </button>
-                </div>
-                <div class="col">
-                    <button class="space" id="id5"> </button>
+                    <button class="space" data-index="2"> </button>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <button class="space" id="id6"> </button>
+                    <button class="space" data-index="3"> </button>
                 </div>
                 <div class="col">
-                    <button class="space" id="id7"> </button>
+                    <button class="space" data-index="4">  </button>
                 </div>
                 <div class="col">
-                    <button class="space" id="id8"> </button>
+                    <button class="space" data-index="5"> </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button class="space" data-index="6"> </button>
+                </div>
+                <div class="col">
+                    <button class="space" data-index="7"> </button>
+                </div>
+                <div class="col">
+                    <button class="space" id="id8" data-index="8"> </button>
                 </div>
             </div>
         </div>
